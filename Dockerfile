@@ -1,4 +1,4 @@
-FROM ngochieu642/pm2-node8-alpine
+FROM ngochieu642/pm2-node8-alpine-qemu
 
 # Install app dependencies
 RUN npm install && \
