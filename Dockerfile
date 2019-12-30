@@ -1,4 +1,4 @@
-FROM ngochieu642/pm2-arm32:latest
+FROM ngochieu642/pm2-arm32:travis
 
 COPY package.json .
 COPY index.js .
