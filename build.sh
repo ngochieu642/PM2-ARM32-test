@@ -1,1 +1,1 @@
-docker build -t ngochieu642/test-pm2:qemu .
+docker build -t ngochieu642/test-pm2:qemu . docker push ngochieu642/test-pm2:qemu

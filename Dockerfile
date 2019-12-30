@@ -1,4 +1,4 @@
-FROM ngochieu642/pm2-node8-alpine-qemu
+FROM ngochieu642/pm2-arm32:qemu
 
 # Copy qemu execution file
 COPY qemu-arm-static /usr/bin
